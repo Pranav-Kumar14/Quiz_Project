@@ -80,6 +80,7 @@ function showQuestion(){
 
 function resetState(){
     nextButton.style.display = "none";
+    next.button.innerHTML = "Next";
     while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild); 
     }
